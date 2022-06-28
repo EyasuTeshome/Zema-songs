@@ -1,0 +1,205 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+:root {
+    --headline: #EC5242;
+    --black: #272a31;
+    --grayish: #D3D3D3;
+}
+
+body {
+    background-color: #f4f5f7;
+    font-family: 'Lato', sans-serif;
+    background-color: var(--grayish);
+    width: 100vw;
+    margin: 0;
+}
+
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #272a31;
+}
+
+.mobile-menu.active {
+    display: block;
+}
+
+.close-button {
+    margin-left: 90%;
+    background: none;
+    font-size: 2rem;
+    border: none;
+    color: white;
+}
+
+.menu-list {
+    margin-left: 25px;
+}
+
+.list-item {
+    list-style: none;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+h1 {
+    font-family: 'COCOGOOSE', sans-serif;
+}
+
+.home {
+    height: 80vh;
+    width: 100%;
+}
+
+.home-content {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.home-h3 {
+    color: var(--headline);
+}
+
+.home-title {
+    color: var(--headline);
+}
+
+.logo {
+    display: none;
+}
+
+.hamburger {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.paragraph-p {
+    border: #f4f5f7 solid 2px;
+    padding: 10px;
+}
+
+.main-program {
+    background-image: url(../img/main-program.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.main-program img {
+    width: 60px;
+    height: 60px;
+}
+
+.program {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 20px 10px;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.program-item {
+    margin-right: 10px;
+}
+
+.program h3 {
+    color: var(--headline);
+}
+
+.join {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.join-button {
+    background-color: var(--headline);
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.performers {
+    background-color: white;
+    font-weight: 900;
+    padding-bottom: 50px;
+}
+
+.performers-2 {
+    margin-left: 20px;
+}
+
+.performer1 {
+    display: flex;
+}
+
+.img-container {
+    background-image: url(../img/speaker-back.jpeg);
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    margin-right: 50px;
+}
+
+.performer-img {
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.content {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.title-speakers {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.h3-hr {
+    width: 30%;
+    height: 1px;
+    background-color: var(--headline);
+    margin-top: 0px;
+}
+
+.hr-2 {
+    width: 10%;
+    height: 1px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.performer-title {
+    color: var(--headline);
+}
+
+.performer-name {
+    font-family: 'cocogoose', sans-serif;
+}
+
+.performer-description {
+    margin-top: 10px;
+}
