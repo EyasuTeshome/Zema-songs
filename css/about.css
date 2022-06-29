@@ -1,0 +1,128 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+:root {
+    --headline: rgb(236, 82, 66);
+    --black: rgb(39, 42, 49);
+    --grayish: #D3D3D3;
+}
+
+.body {
+    background-color: #f4f5f7;
+}
+
+.home-about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.home-title {
+    color: var(--headline);
+}
+
+.paragraph-p {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: var(--grayish) solid 1px;
+}
+
+.our-email {
+    color: black;
+    font-weight: bolder;
+}
+
+.logo-section {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hr-title {
+    width: 10%;
+    height: 1px;
+    background-color: var(--headline);
+    border: none;
+}
+
+.logo-img {
+    border: gray 1px solid;
+    padding: 10px;
+}
+
+.past-about {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.past-img {
+    margin: 20px 30px;
+}
+
+.past-img-back1 {
+    background-image: url(../img/concert.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.past-img-back2 {
+    background-image: url(../img/concert1.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 15px;
+}
+
+.past-img-overlay {
+    background-color: rgba(236, 82, 66, 0.5);
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur();
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.text {
+    margin: 2px;
+}
+
+.partners-h3 {
+    text-align: center;
+}
+
+.partners {
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.partners-contrainer {
+    display: flex;
+}
+
+.partner-h {
+    margin-left: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-left: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo {
+    width: 50%;
+    height: 60%;
+    margin-right: 20px;
+}
