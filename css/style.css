@@ -1,225 +1,242 @@
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 :root {
-    --headline: #EC5242;
-    --black: #272a31;
-    --grayish: #D3D3D3;
+  --headline: #ec5242;
+  --black: #272a31;
+  --grayish: #d3d3d3;
 }
 
 body {
-    background-color: #f4f5f7;
-    font-family: 'Lato', sans-serif;
-    background-color: var(--grayish);
-    width: 100vw;
-    margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: var(--grayish);
+  width: 100vw;
+  margin: 0;
+}
+
+.above-nav {
+  display: none;
 }
 
 .head-home {
-    background-image: url(../img/back-mobile.jpg);
-    background-size: contain;
+  background-image: url(../img/back-mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .mobile-menu {
-    display: none;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100vh;
-    width: 100%;
-    background-color: #272a31;
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #272a31;
 }
 
 .mobile-menu.active {
-    display: block;
+  display: block;
 }
 
 .close-button {
-    margin-left: 90%;
-    background: none;
-    font-size: 2rem;
-    border: none;
-    color: white;
+  margin-left: 90%;
+  background: none;
+  font-size: 2rem;
+  border: none;
+  color: white;
 }
 
 .menu-list {
-    margin-left: 25px;
+  margin-left: 25px;
 }
 
 .list-item {
-    list-style: none;
+  list-style: none;
 }
 
 .link {
-    color: white;
-    text-decoration: none;
-    font-size: 35px;
-    font-weight: 500;
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: 500;
 }
 
 h1 {
-    font-family: 'COCOGOOSE', sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .home {
-    height: 70vh;
-    width: 100%;
+  height: 70vh;
+  width: 100%;
+  padding-top: 40px;
 }
 
 .home-content {
-    margin-top: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .home-h3 {
-    color: var(--headline);
-    margin-bottom: 0;
+  color: var(--headline);
+  margin-bottom: 0;
 }
 
 .home-title {
-    background-image: url(../img/text.jpg);
-    background-repeat: no-repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: cover;
-    color: red;
-    font-size: 25px;
-    margin-top: 5px;
+  background-size: cover;
+  color: red;
+  font-size: 25px;
+  margin-top: 5px;
 }
 
 .logo {
-    display: none;
+  display: none;
 }
 
 .hamburger {
-    margin-left: 20px;
-    margin-top: 15px;
+  margin-left: 20px;
+  margin-top: 15px;
 }
 
 .paragraph-p {
-    border: white solid 2px;
-    padding: 10px;
+  border: white solid 2px;
+  padding: 10px;
+  background-color: #f4f5f7;
 }
 
 .main-program {
-    background-image: url(../img/main-program.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    margin-bottom: 0px;
+  background-image: url(../img/main-program.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin-bottom: 0;
 }
 
 .main-program-p {
-    text-align: center;
-    padding-top: 20px;
-    margin-top: 0;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 0;
 }
 
 .main-program img {
-    width: 60px;
-    height: 60px;
+  width: 60px;
+  height: 60px;
 }
 
 .program {
-    display: flex;
-    background-color: rgba(255, 255, 255, 0.1);
-    margin: 20px 10px;
-    padding: 20px 30px;
-    align-items: center;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 20px 10px;
+  padding: 20px 30px;
+  align-items: center;
 }
 
 .program-item {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .program h3 {
-    color: var(--headline);
+  color: var(--headline);
 }
 
 .join {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .join-button {
-    background-color: var(--headline);
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    font-size: 17px;
-    margin-bottom: 20px;
-    margin-left: 25px;
-    margin-right: 25px;
+  background-color: var(--headline);
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-size: 17px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .performers {
-    background-color: white;
-    font-weight: 900;
-    padding-bottom: 50px;
+  background-color: white;
+  font-weight: 900;
+  padding-bottom: 50px;
 }
 
 .performers-2 {
-    margin-left: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 .performer1 {
-    display: flex;
+  display: flex;
 }
 
 .img-container {
-    background-image: url(../img/speaker-back.jpeg);
-    background-size: cover;
-    width: 70px;
-    height: 70px;
-    margin-right: 50px;
+  background-image: url(../img/speaker-back.jpeg);
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+  margin-right: 50px;
 }
 
 .performer-img {
-    padding-top: 15px;
-    padding-left: 15px;
-    width: 100px;
-    height: 100px;
+  padding-top: 15px;
+  padding-left: 15px;
+  width: 100px;
+  height: 100px;
 }
 
 .content {
-    margin-bottom: 0px;
-    margin-top: 0px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .title-speakers {
-    margin-top: 0px;
-    margin-bottom: 10px;
-    padding-top: 15px;
-    text-align: center;
-    font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  text-align: center;
+  font-weight: 900;
 }
 
 .h3-hr {
-    width: 10%;
-    height: 1px;
-    background-color: var(--headline);
-    margin-top: 0px;
-    border: none;
+  width: 10%;
+  height: 1px;
+  background-color: var(--headline);
+  margin-top: 0;
+  border: none;
 }
 
 .hr-2 {
-    width: 10%;
-    height: 1px;
-    margin-top: 10px;
-    margin-left: 0;
+  width: 20%;
+  height: 2px;
+  margin-top: 10px;
+  margin-left: 0;
+  border: none;
+  background-color: black;
 }
 
 .performer-title {
-    color: var(--headline);
+  color: var(--headline);
 }
 
 .performer-name {
-    font-family: 'cocogoose', sans-serif;
+  font-family: 'cocogoose', sans-serif;
 }
 
 .performer-description {
-    margin-top: 10px;
+  margin-top: 10px;
+  width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+  .seeall-link {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
 }
