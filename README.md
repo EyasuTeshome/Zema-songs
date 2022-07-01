@@ -43,10 +43,6 @@ To successfully utilize this project first of all you need to clone or download 
 - Twitter: [@EyasuTeshome](https://twitter.com/EyasuTeshome)
 - LinkedIn: [Eyasu Teshome](https://linkedin.com/in/EyasuTeshome)
 
-## Contributors
-👤 Faustin Makutano
-👤 Mehria-Rahmani
-
 
 ## 🤝 Contributing
 
