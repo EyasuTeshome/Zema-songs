@@ -19,8 +19,11 @@ In this project I have used linter for HTML and CSS, to make sure there are no l
 
 [Click here to see the Website](https://eyasuteshome.github.io/Zema-songs/index.html)
 
+## Video Demonstration
+[click Here to Watch Video Demo](https://www.loom.com/share/c1b96009d83a4ab5948ca8a6620d8810)
 ## Acknowledgment
 This Project design is taken from [Cindy Shin](https://www.behance.net/adagio07). If you are using this design in the future please make sure to give credit to Cindy Shin.
+
 ## Getting Started
 
 To successfully utilize this project first of all you need to clone or download the repository. Next, open the index.html file to check the website’s main page. If you want to add or edit the files you can do that by simply opening the file folder in VS code.
