@@ -107,9 +107,8 @@ h1 {
 }
 
 .main-program {
-  background-image: url(../img/main-program.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(../img/icons/main-bg_360.png);
+  background-color: #272a31;
   color: white;
   margin-bottom: 0;
 }
@@ -129,12 +128,14 @@ h1 {
   display: flex;
   background-color: rgba(255, 255, 255, 0.1);
   margin: 20px 10px;
-  padding: 20px 30px;
+  padding: 20px 10px;
   align-items: center;
 }
 
 .program-item {
-  margin-right: 10px;
+  margin-right: 2px;
+  margin-left: 5px;
+  margin-bottom: 0;
 }
 
 .program h3 {
@@ -207,6 +208,7 @@ h1 {
   background-color: var(--headline);
   margin-top: 0;
   border: none;
+  margin-bottom: 40px;
 }
 
 .hr-2 {
@@ -229,6 +231,47 @@ h1 {
 .performer-description {
   margin-top: 10px;
   width: 90%;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  padding-left: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo {
+  width: 50%;
+  height: 60%;
+  margin-right: 20px;
+}
+
+.partners-h3 {
+  text-align: center;
+}
+
+.partners {
+  background-color: rgb(20, 20, 20);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.partners-contrainer {
+  display: flex;
+}
+
+.partner-h {
+  margin-left: 10px;
+}
+
+.hr-title {
+  width: 10%;
+  height: 1px;
+  background-color: var(--headline);
+  border: none;
 }
 
 @media screen and (max-width: 768px) {

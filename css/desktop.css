@@ -135,10 +135,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 25%;
   }
 
   .h3-program {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .join-button {
@@ -173,6 +174,53 @@
 
   .performer-content {
     margin-left: 10px;
+  }
+
+  .partners-h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .hr-title {
+    width: 5%;
+    height: 1px;
+    background-color: var(--headline);
+    border: none;
+  }
+
+  .partners {
+    background-color: rgb(36, 34, 34);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .partners-contrainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .partner-h {
+    margin-left: 5%;
+    font-size: 40px;
+  }
+
+  footer {
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+  }
+
+  .footer-logo {
+    width: 200px;
+    height: 50px;
+    margin-right: 20px;
   }
 }
 
