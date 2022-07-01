@@ -1,0 +1,178 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+  --headline: #ec5242;
+  --black: #272a31;
+  --grayish: #d3d3d3;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: white;
+  }
+
+  .desktop-nav {
+    display: flex;
+    background-color: white;
+    padding: 20px 10%;
+  }
+
+  .ham {
+    display: none;
+  }
+
+  .above-nav {
+    display: flex;
+    background-color: var(--black);
+  }
+
+  .above-ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 10%;
+  }
+
+  .above-list {
+    margin-right: 20px;
+    color: white;
+  }
+
+  .above-img {
+    width: 20px;
+    height: 20px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(347deg) brightness(114%) contrast(101%);
+  }
+
+  .logo-desk {
+    margin-right: auto;
+  }
+
+  .logo-1 {
+    height: 50px;
+  }
+
+  .list-container {
+    display: flex;
+  }
+
+  .list-item {
+    margin-right: 30px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 900;
+  }
+
+  .nav-link-1 {
+    border: #ec5242 3px solid;
+    padding: 10px;
+    color: #ec5242;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+  .nav-link:hover {
+    color: var(--headline);
+  }
+
+  .home-about {
+    background-image: url(../img/back-desktop.jpg);
+    margin-top: 0;
+    background-size: cover;
+    height: auto;
+  }
+
+  .home-content {
+    margin-top: 0;
+    padding-top: 8%;
+  }
+
+  .home-h3 {
+    margin-top: 0;
+    font-size: 3rem;
+  }
+
+  .home-title {
+    font-size: 4rem;
+    margin-bottom: 10px;
+  }
+
+  .paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .paragraph-p {
+    text-align: center;
+    width: 60%;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: #f4f5f7;
+    margin-right: 0;
+  }
+
+  .year-h1 {
+    font-size: 2.3rem;
+  }
+
+  .paragraph-p-1 {
+    font-size: 1.5rem;
+  }
+
+  .logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-p {
+    width: 50%;
+  }
+
+  .logo-img {
+    width: 60%;
+    margin-bottom: 50px;
+  }
+
+  .past-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .past-img-back {
+    width: 400px;
+    height: 400px;
+    margin: 15px;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  footer {
+    color: white;
+    background-color: #272a31;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+  }
+
+  .footer-logo {
+    width: 200px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .desktop-nav {
+    padding: 20px 0%;
+  }
+}

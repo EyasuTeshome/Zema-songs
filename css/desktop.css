@@ -1,0 +1,231 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+  --headline: #ec5242;
+  --black: #272a31;
+  --grayish: #d3d3d3;
+}
+
+@media screen and (min-width: 768px) {
+  .desktop-nav {
+    display: flex;
+    background-color: white;
+    padding: 20px 10%;
+  }
+
+  .ham {
+    display: none;
+  }
+
+  .above-nav {
+    display: flex;
+    background-color: var(--black);
+  }
+
+  .above-ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 10%;
+  }
+
+  .above-list {
+    margin-right: 20px;
+    color: white;
+  }
+
+  .above-img {
+    width: 20px;
+    height: 20px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(347deg) brightness(114%) contrast(101%);
+  }
+
+  .logo-desk {
+    margin-right: auto;
+  }
+
+  .logo-1 {
+    height: 50px;
+  }
+
+  .list-container {
+    display: flex;
+  }
+
+  .list-item {
+    margin-right: 30px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 900;
+  }
+
+  .nav-link-1 {
+    border: #ec5242 3px solid;
+    padding: 10px;
+    color: #ec5242;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+  .nav-link:hover {
+    color: var(--headline);
+  }
+
+  .home {
+    background-image: url(../img/back-desktop.jpg);
+    margin-top: 0;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 8rem;
+  }
+
+  .home-content {
+    margin-top: 0;
+    padding-top: 8%;
+    padding-left: 16%;
+  }
+
+  .home-h3 {
+    margin-top: 0;
+    font-size: 3rem;
+  }
+
+  .home-title {
+    font-size: 4rem;
+    margin-bottom: 10px;
+  }
+
+  .paragraph-p {
+    width: 60%;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background-color: #f4f5f7;
+  }
+
+  .year-h1 {
+    font-size: 2.3rem;
+  }
+
+  .paragraph-p-1 {
+    font-size: 1.5rem;
+  }
+
+  .main-program {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .main-program-p {
+    font-size: 2rem;
+  }
+
+  .program-container {
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  .program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+  }
+
+  .h3-program {
+    font-size: 1.5rem;
+  }
+
+  .join-button {
+    display: none;
+  }
+
+  .seeall-link {
+    color: white;
+    padding: 20px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .title-speakers {
+    font-size: 2rem;
+  }
+
+  .performers1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .performers-2 {
+    width: 35%;
+    margin-bottom: 100px;
+  }
+
+  .performer-content {
+    margin-left: 10px;
+  }
+
+  .partners-h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .hr-title {
+    width: 5%;
+    height: 1px;
+    background-color: var(--headline);
+    border: none;
+  }
+
+  .partners {
+    background-color: rgb(36, 34, 34);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .partners-contrainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .partner-h {
+    margin-left: 5%;
+    font-size: 40px;
+  }
+
+  footer {
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+  }
+
+  .footer-logo {
+    width: 200px;
+    height: 50px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .desktop-nav {
+    padding: 20px 0%;
+  }
+}
